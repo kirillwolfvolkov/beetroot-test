@@ -1,0 +1,42 @@
+.App {
+  
+}
+
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.Contracts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Contract {
+  display: block;
+  text-align: center;
+  border: 1px solid;
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Customers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Customer {
+  display: block;
+  text-align: center;
+  border: 1px solid;
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
